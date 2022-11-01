@@ -169,11 +169,32 @@ article .article-img {
     }
 }
 
-footer p.copyright {    
-        width: 100%;
-        line-height: 40px;
-        font-size: 0.875em;         
-        margin-bottom: 1em;
-        margin-left: 50%;
-    }
+footer {
+    display: flex;    
+    justify-content: space-between;    
+}
+
+.footer-links {     
+     display: inline-flex;
+     margin-inline-start: start;    
+     padding-left: 0.825em;       
+}
+
+.footer-links li {
+    list-style: none;
+    margin-left: 0;    
+}
+
+.footer-links li a span {
+    margin-right: 0.25rem;
+} 
+
+.footer-anchor {
+    text-decoration: none;
+    color: var(--primary);
+}   
+
+p.copyright {
+    padding-right: 0.825em;
+}
 
